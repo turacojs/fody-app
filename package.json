@@ -1,0 +1,33 @@
+{
+  "name": "fody-app",
+  "version": "1.0.0",
+  "description": "React App with context",
+  "main": "lib/App.js",
+  "browser": "browser/lib/App.js",
+  "scripts": {
+    "test": "make test",
+    "lint": "make lint",
+    "build": "make build",
+    "postpublish": "make post-publish",
+    "preversion": "make pre-version",
+    "version": "make version",
+    "watch": "make watch"
+  },
+  "repository": "turacojs/fody-app",
+  "keywords": [
+    "react",
+    "fody"
+  ],
+  "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/turacojs/fody-app/issues"
+  },
+  "homepage": "https://github.com/turacojs/fody-app#readme",
+  "devDependencies": {
+    "springbokjs-library": "^15.0.0"
+  },
+  "dependencies": {
+    "react": "^0.14.7"
+  }
+}
