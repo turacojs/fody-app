@@ -1,12 +1,5 @@
 # fody-app
 
-React App with context
+# Deprecated
 
-```js
-import render from 'fody';
-import Html from './HtmlComponent';
-
-// ...
-
-render({ context, Component, data, Html });
-```
+Use `import { App } from 'fody';` instead.
